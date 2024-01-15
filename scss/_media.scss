@@ -1,0 +1,167 @@
+@media (max-width: 1220px) {
+	.center {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+}
+
+@media (max-width: 809px) {
+	.top {
+		margin-bottom: 50px;
+	}
+	.video-section {
+		flex-direction: column;
+		margin-bottom: 60px;
+		&__content {
+			margin-bottom: 60px;
+			width: 100%;
+			padding-right: 0;
+		}
+		&__img {
+			width: 100%;
+			padding: 0px 0px 60% 0px;
+		}
+	}
+	.features {
+		padding-top: 50px;
+		&__body {
+			flex-wrap: wrap;
+		}
+		&__column {
+			max-width: 100%;
+			flex: 1 1 auto;
+		}
+	}
+	.item-features {
+		&__title {
+			font-size: 24px;
+		}
+		&__text {
+			font-size: 14px;
+		}
+		&__link {
+			font-size: 14px;
+		}
+	}
+	.app-download {
+		&__body {
+			flex-direction: column;
+			padding-top: 50px;
+			padding-bottom: 70px;
+		}
+		&__content {
+			width: 100%;
+			margin-bottom: 60px;
+			padding-right: 0;
+		}
+		&__img {
+			width: 100%;
+			padding: 0px 0px 60% 0px;
+		}
+	}
+	.contacts {
+		flex-direction: column;
+		padding-top: 85px;
+		padding-bottom: 40px;
+		&__content {
+			max-width: 100%;
+			margin-bottom: 40px;
+		}
+	}
+	.block-text__title_contacts {
+		margin-bottom: 26px;
+	}
+	.form {
+		align-items: center;
+	}
+}
+
+@media (max-width: 560px) {
+	.top {
+		&__header {
+			justify-content: space-between;
+		}
+		&__menu {
+			position: fixed;
+			top: -100%;
+			left: 0;
+			transition: all 0.4s ease 0s;
+			background-color: #fff;
+			width: 100%;
+			padding: 30px;
+			height: 100%;
+			&.active {
+				top: 100px;
+			}
+		}
+
+		&__list {
+			flex-direction: column;
+		}
+		&__link {
+			color: #ed4c5c;
+			font-size: 24px;
+		}
+
+		&__menu-burger {
+			display: block;
+			transition: all 0.3s ease 0s;
+			&.active:before {
+				transform: rotate(45deg);
+				top: 9px;
+			}
+			&.active:after {
+				transform: rotate(-45deg);
+				bottom: 9px;
+			}
+			&.active span {
+				scale: 0;
+			}
+		}
+
+
+
+		&__title {
+			font-size: 50px;
+		}
+
+		&__text {
+			font-size: 18px;
+		}
+	}
+	.form {
+		&__name {
+			display: block;
+			margin-bottom: 0;
+			width: 100%;
+		}
+		&__item {
+			width: 100%;
+			margin-bottom: 24px;
+		}
+		&__number {
+			width: 100%;
+			margin-bottom: 0;
+		}
+		&__select {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.top {
+		&__title {
+			font-size: 40px;
+		}
+		&__text {
+			font-size: 16px;
+		}
+		&__logo {
+			margin-right: 120px;
+		}
+	}
+	.contacts {
+		padding-top: 60px;
+	}
+}
