@@ -9,5 +9,3 @@
 - HTML
 - SCSS
 
-### Сайт
-https://juliamatsievich.github.io/Coworking/
