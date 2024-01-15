@@ -8,4 +8,3 @@
 
 - HTML
 - SCSS
-
