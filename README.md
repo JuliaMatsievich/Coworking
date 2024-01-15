@@ -10,4 +10,4 @@
 - SCSS
 
 ### Сайт
-https://juliamatsievich.github.io/Internet-shop/
+https://juliamatsievich.github.io/Coworking/
